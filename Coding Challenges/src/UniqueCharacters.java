@@ -18,7 +18,7 @@ public class UniqueCharacters
 		}
 	static boolean isUnique(String s) 	
 	{
-		int count =0;
+		
 		int asciiArray[] = new int[128];
 		for(int i = 0 ; i < s.length(); i++) 
 		{
